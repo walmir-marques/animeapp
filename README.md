@@ -1,3 +1,7 @@
+#### PROJETO DE SITE DE PESQUISA DE ANIMES
+
+Esse projeto usei conceitos basicos de React, como components, props, useEffect, fetch. Que consome uma api e mostra na tela animes pesquisados pelos usuários.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
