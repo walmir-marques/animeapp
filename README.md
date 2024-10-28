@@ -1,74 +1,45 @@
-#### PROJETO DE SITE DE PESQUISA DE ANIMES
+# Anime-app 🎌
+Projeto de site de pesquisa de animes. Este aplicativo permite que os usuários busquem por animes e visualizem os resultados na tela. <br><br>
 
-Esse projeto usei conceitos basicos de React, como components, props, useEffect, fetch. Que consome uma api e mostra na tela animes pesquisados pelos usuários.
+## 📋 Descrição <br><br> 
 
-# Getting Started with Create React App
+O Anime-app é uma aplicação web desenvolvida para facilitar a pesquisa de animes. Utilizando a API do Jikan, o projeto permite que os usuários insiram suas pesquisas e exibam os animes correspondentes. A aplicação é construída com conceitos básicos de React, como componentes, props e hooks, proporcionando uma interface interativa e responsiva. <br><br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🛠️ Tecnologias Utilizadas <br><br>
 
-## Available Scripts
+- React
+- TailwindCss
+- Fetch API <br><br>
+## 💡 Conceitos Aprendidos e Aplicados <br><br> 
 
-In the project directory, you can run:
+- Criação de componentes reutilizáveis para melhor organização do código
+- Uso de props para passar dados entre componentes
+- Implementação do hook useEffect para gerenciar efeitos colaterais, como chamadas à API
+- Consumo de APIs externas utilizando o método fetch para obter dados de animes <br><br> 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Funcionalidades <br><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Campo de busca para que os usuários possam procurar animes
+- Exibição de resultados de animes com informações relevantes
+- Interface simples e intuitiva para uma melhor experiência do usuário <br><br>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🖥️ Como Executar o Projeto <br><br>
 
-### `npm run build`
+Faça o download ou clone o repositório:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+``` git clone https://github.com/seu-usuario/anime-app.git ``` <br><br>
+Navegue até o diretório do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+``` cd anime-app ``` <br><br>
+Instale as dependências: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``` npm install ``` <br><br>
+Inicie a aplicação:
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+``` npm start ``` <br><br> 
+Abra o navegador e acesse:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+``` http://localhost:3000 ``` <br><br>
